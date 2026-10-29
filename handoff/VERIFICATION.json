@@ -1,0 +1,31 @@
+{
+  "verifiedAt": "2026-10-29T11:29:49.140103+00:00",
+  "handoffCommit": "8dc6d63af118aaa487393f9e6a5afb0fe18ba7d1",
+  "sourceCommit": "c0f29de1f155f0059b22e0431e1acad3d4a782d1",
+  "githubMainUpdateConfirmed": true,
+  "remoteEntriesVerified": 172,
+  "archiveParts": 163,
+  "archiveFiles": 3660,
+  "localRestoreAllFileHashesPassed": true,
+  "uploadedGitBlobHashesPassed": true,
+  "sites": {
+    "version": 174,
+    "deploymentId": "appgdep_6ae32bf5b2c08191b08adcc604956567",
+    "status": "succeeded",
+    "url": "https://market-heat-jaime.jaime2243.chatgpt.site"
+  },
+  "pages": {
+    "workflowRunId": 40865691892,
+    "workflowConclusion": "success",
+    "url": "https://city2243.github.io/market-heat/",
+    "httpStatus": 200,
+    "marker": "market-heat-20261029-handoff-census234",
+    "markerFound": true
+  },
+  "limitations": [
+    "This receipt verifies handoff commit 8dc6d63 and the deployed marker; the receipt itself is a later documentation commit.",
+    "Census remains incomplete: 234/1994 companies, 2729/13958 checks.",
+    "Runtime secrets and private research require existing authorized connections and are intentionally absent.",
+    "Full tracked source snapshot and public data histories are included; Git object history and dependencies are not included."
+  ]
+}
