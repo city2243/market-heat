@@ -144,8 +144,10 @@
     },
     "github": {
       "entryCommit": "b618b8fb83635b4ad8dbd999f93ce1d7332421e6",
-      "verification": "pending-public-marker-verification",
-      "pages": "https://city2243.github.io/market-heat/"
+      "verification": "public-marker-verified",
+      "pages": "https://city2243.github.io/market-heat/",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-29T17:09:07.074781+00:00"
     }
   },
   "previousPublishedUpdate": {
