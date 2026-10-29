@@ -1,0 +1,92 @@
+{
+  "asOf": "2026-10-29T11:24:32.267Z",
+  "sourceCommit": "c0f29de1f155f0059b22e0431e1acad3d4a782d1",
+  "census": {
+    "total": 1994,
+    "completeCompanies": 234,
+    "reviewedChecks": 2729,
+    "requiredChecks": 13958,
+    "remainingCompanies": 1760,
+    "firstCensusComplete": false,
+    "batch": {
+      "id": "2026-10-29T09-45-41-472Z-9d9a28",
+      "processed": 20,
+      "newCompleteCompanies": 11,
+      "newReviewedChecks": 131,
+      "closed": true,
+      "pendingCurrentValidity": [
+        "3576",
+        "3685",
+        "4139",
+        "4588",
+        "6655",
+        "6697",
+        "6887",
+        "7782",
+        "8067"
+      ]
+    }
+  },
+  "news": {
+    "edition": "2026-10-29T16-59-35",
+    "cutoffTaipei": "2026-10-29T17:05:00.822187+08:00",
+    "readerCounts": {
+      "TW": 10,
+      "US": 10,
+      "JP": 10
+    },
+    "recollectedForHandoff": false,
+    "limitations": "固定來源重試TW18/30、US12/37、JP0/35；新增補查event-followup。非全市場覆蓋。"
+  },
+  "quality": {
+    "passed": true,
+    "checks": 36,
+    "verifiedAt": "2026-10-29T11:14:14.639Z",
+    "scope": "Local regression, not independent market accuracy",
+    "japaneseDevelopmentRecall": 0.6875,
+    "insufficientCases": 53,
+    "independentHumanReviews": 0
+  },
+  "sites": {
+    "id": "appgdep_6ae32bf5b2c08191b08adcc604956567",
+    "project_id": "appgprj_6aa0e3f948988191875bab0b452dfdca",
+    "title": "Market Heat｜三市場熱度",
+    "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_89e69871938081918f5df83328b9279c",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6aa0e3f948988191875bab0b452dfdca",
+    "failure_message": null,
+    "env_set_revision": 1,
+    "updated_at": "2026-10-29T11:20:45.300896+00:00",
+    "versionNumber": 174
+  },
+  "github": {
+    "repository": "city2243/market-heat",
+    "branch": "main",
+    "pages": "https://city2243.github.io/market-heat/",
+    "marker": "market-heat-20261029-handoff-census234",
+    "statusAtCommit": "Handoff commit triggers Pages; verify marker independently after publication."
+  },
+  "automation": {
+    "id": "6aa0e813ab588191a0c201ccc902709c",
+    "title": "公司新聞雙站更新與全台股普查至完成",
+    "enabledAtLastCheck": true,
+    "timezone": "Asia/Taipei",
+    "hours": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20
+    ],
+    "minute": 45,
+    "newTaskCreated": false,
+    "handoffDoesNotDisableExistingTask": true
+  },
+  "secretsIncluded": false,
+  "privateResearchIncluded": false
+}
