@@ -91,6 +91,71 @@
   "privateResearchIncluded": false,
   "archiveNote": "頂層 asOf/sourceCommit 及既有欄位描述原交接封存，不因後續新聞更新重標日期；以下 latestPublishedUpdate 記錄新一輪實際發布。完整來源的新提交保存在原 Sites 來源分支。",
   "latestPublishedUpdate": {
+    "edition": "2026-10-30T04-47-15",
+    "cutoffTaipei": "2026-10-30T04:47:15.293011+08:00",
+    "readerCounts": {
+      "TW": 0,
+      "US": 10,
+      "JP": 0
+    },
+    "census": {
+      "total": 1994,
+      "completeCompanies": 267,
+      "reviewedChecks": 3121,
+      "requiredChecks": 13958,
+      "remainingCompanies": 1727,
+      "firstCensusComplete": false,
+      "batch": {
+        "id": "2026-10-29T20-47-18-349Z-0beb67",
+        "processed": 20,
+        "newCompleteCompanies": 13,
+        "newReviewedChecks": 133,
+        "closed": true
+      }
+    },
+    "quality": {
+      "passed": false,
+      "checks": 36,
+      "passedChecks": 34,
+      "failedChecks": [
+        "單源新事件與議題分層",
+        "本期三市場各十則"
+      ],
+      "verifiedAt": "2026-10-29T21:13:45.254Z",
+      "scope": "本地回歸，不代表全市場效果；日文開發回放68.75%，53組資訊不足"
+    },
+    "limitations": "美股精選10則逐篇核對原始日期及營運事件，其中6則入選為補搜尋的公司官方新聞稿，另1則Sandisk為經官方財報核對的公司稿轉載，不視為獨立第三方佐證。Reuters Salesforce原站直接請求401，採搜尋服務可讀的原文日期與摘要核對，未宣稱取得完整全文。非精選固定觀測未全部完成正文查核。 台日今日候選逐則篩查後尚無可確認的新事件：已識別多筆舊法說/公告重刊與研究索引；緯穎、第一三共、電通總研、歐姆龍等原文或精確日期仍未取得。0則不代表全市場無新聞。 追加排除12筆舊事件、活動推廣、泛研究及重複刊載；Intel公司稿與個別Reuters改寫僅按本輪已核對URL保守合併共同來源，非精選觀測仍未全篇查核。 固定來源102/102回應非全市場覆蓋；熱門榜沒有已確認今日出版的榜內文章。報價重試後PERF仍無新值，保存原日期舊值；新增精選公司均有報價。熱度基準仍累積中。",
+    "marker": "market-heat-20261030-0447-census267",
+    "sourceCommit": "b493401f038919bc5e40ae568e1a3f5c3cdfd8fb",
+    "sites": {
+      "id": "appgdep_6ae3b8495fc48191b0c5de673daa0897",
+      "project_id": "appgprj_6aa0e3f948988191875bab0b452dfdca",
+      "title": "Market Heat｜三市場熱度",
+      "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_9271b46b8e788191a82f6809eadadc73",
+      "type": "publish",
+      "status": "succeeded",
+      "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
+      "has_mcp": false,
+      "screenshot_asset_pointer": null,
+      "provider_deployment_id": "site---6aa0e3f948988191875bab0b452dfdca",
+      "failure_message": null,
+      "env_set_revision": 1,
+      "updated_at": "2026-10-29T21:19:24.772653+00:00",
+      "versionNumber": 178
+    },
+    "github": {
+      "entryCommit": "207fc038a0f470b6bd743f0bd038fa5d39cd673e",
+      "verification": "awaiting-public-marker",
+      "pages": "https://city2243.github.io/market-heat/"
+    },
+    "automation": {
+      "id": "6aa0e813ab588191a0c201ccc902709c",
+      "enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Taipei:20261016T004500\nRRULE:FREQ=DAILY;BYHOUR=0,4,8,12,16,20;BYMINUTE=45;BYSECOND=0\nEND:VEVENT",
+      "timezone": "Asia/Taipei"
+    }
+  },
+  "previousPublishedUpdate": {
     "edition": "2026-10-30T00-47-40",
     "cutoffTaipei": "2026-10-30T00:47:40.355805+08:00",
     "readerCounts": {
@@ -148,69 +213,6 @@
       "pages": "https://city2243.github.io/market-heat/",
       "httpStatus": 200,
       "verifiedAt": "2026-10-29T17:09:07.074781+00:00"
-    }
-  },
-  "previousPublishedUpdate": {
-    "edition": "2026-10-30T00-11-16",
-    "cutoffTaipei": "2026-10-30T00:11:16.511035+08:00",
-    "readerCounts": {
-      "TW": 0,
-      "US": 0,
-      "JP": 0
-    },
-    "census": {
-      "total": 1994,
-      "completeCompanies": 245,
-      "reviewedChecks": 2859,
-      "requiredChecks": 13958,
-      "remainingCompanies": 1749,
-      "firstCensusComplete": false,
-      "newCompleteCompanies": 0,
-      "newReviewedChecks": 0,
-      "note": "本次為使用者回報跨日空畫面的緊急修復，未新增普查進度；接續原已保存批次與證據。"
-    },
-    "quality": {
-      "passed": false,
-      "checks": 36,
-      "passedChecks": 34,
-      "failedChecks": [
-        "單源新事件與議題分層",
-        "本期三市場各十則"
-      ],
-      "verifiedAt": "2026-10-29T16:22:20.764Z",
-      "scope": "本地品質與回歸檢查，不是獨立盲測或全市場準確率",
-      "japaneseDevelopmentRecall": 0.6875,
-      "insufficientCases": 53,
-      "independentHumanReviews": 0
-    },
-    "limitations": "固定來源102/102回應，本批534篇候選均為台北10/29原始發布。14組原文補搜尋與6個候選排除另保存，未找到可核驗今日合格新事件；零收錄不代表全市場沒有新聞。報價514/515取得，US:PERF未取得新值。未完成瀏覽器視覺驗收；10項跨日及首頁HTML回歸通過。依部分發布規則保留34/36品質結果。",
-    "readingFix": "保留今日出版日篩選，首頁提供立即更新與主動查看上一期歷史；跨日明示未完成今日收錄。每60秒僅重讀保存新聞，不自動新增來源收錄或排程。",
-    "marker": "market-heat-20261030-midnight-reading-fix",
-    "sourceCommit": "944237b9f884a38a1c927b1e1df4ccbdc34b0713",
-    "sites": {
-      "id": "appgdep_6ae37466433c8191b24f7ee37b88d0de",
-      "project_id": "appgprj_6aa0e3f948988191875bab0b452dfdca",
-      "title": "Market Heat｜三市場熱度",
-      "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_fd02f643c2f08191839ddcc996645628",
-      "type": "publish",
-      "status": "succeeded",
-      "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
-      "has_mcp": false,
-      "screenshot_asset_pointer": null,
-      "provider_deployment_id": "site---6aa0e3f948988191875bab0b452dfdca",
-      "failure_message": null,
-      "env_set_revision": 1,
-      "updated_at": "2026-10-29T16:29:49.917687+00:00",
-      "versionNumber": 176
-    },
-    "github": {
-      "repository": "city2243/market-heat",
-      "branch": "main",
-      "pages": "https://city2243.github.io/market-heat/",
-      "entryCommit": "cb5afde91c5ec9c02837f3b9c7caba8cddc39b1a",
-      "verification": "public-marker-verified",
-      "httpStatus": 200,
-      "verifiedAt": "2026-10-29T16:32:03.134862+00:00"
     }
   }
 }
