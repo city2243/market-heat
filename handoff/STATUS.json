@@ -91,6 +91,64 @@
   "privateResearchIncluded": false,
   "archiveNote": "頂層 asOf/sourceCommit 及既有欄位描述原交接封存，不因後續新聞更新重標日期；以下 latestPublishedUpdate 記錄新一輪實際發布。完整來源的新提交保存在原 Sites 來源分支。",
   "latestPublishedUpdate": {
+    "edition": "2026-10-30T00-47-40",
+    "cutoffTaipei": "2026-10-30T00:47:40.355805+08:00",
+    "readerCounts": {
+      "TW": 0,
+      "US": 0,
+      "JP": 0
+    },
+    "census": {
+      "total": 1994,
+      "completeCompanies": 254,
+      "reviewedChecks": 2988,
+      "requiredChecks": 13958,
+      "remainingCompanies": 1740,
+      "firstCensusComplete": false,
+      "batch": {
+        "id": "2026-10-29T16-47-16-772Z-9d3b05",
+        "processed": 20,
+        "newCompleteCompanies": 9,
+        "newReviewedChecks": 129,
+        "closed": true
+      }
+    },
+    "quality": {
+      "passed": false,
+      "checks": 36,
+      "passedChecks": 34,
+      "failedChecks": [
+        "單源新事件與議題分層",
+        "本期三市場各十則"
+      ],
+      "scope": "本地回歸，不代表全市場效果；日文開發回放68.75%，53組資訊不足"
+    },
+    "limitations": "固定來源102/102回應、512篇候選；今日時間候選3篇逐條核對後排除，擴查30組原文仍未取得可驗證今日新事件，不代表全市場沒有新聞。報價514/515，PERF未取得新值。普查11家當期有效性仍缺逐筆續約/驗收等；其餘未完成公司依原目標續查。",
+    "marker": "market-heat-20261030-0047-census254",
+    "sourceCommit": "d00683768abb90b8c5ab8fd10359d77d10f3e005",
+    "sites": {
+      "id": "appgdep_6ae37d54be9c8191acf444a152450b92",
+      "project_id": "appgprj_6aa0e3f948988191875bab0b452dfdca",
+      "title": "Market Heat｜三市場熱度",
+      "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_bf1b6a7974e08191b84a5c71c956bb8c",
+      "type": "publish",
+      "status": "succeeded",
+      "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
+      "has_mcp": false,
+      "screenshot_asset_pointer": null,
+      "provider_deployment_id": "site---6aa0e3f948988191875bab0b452dfdca",
+      "failure_message": null,
+      "env_set_revision": 1,
+      "updated_at": "2026-10-29T17:08:01.565213+00:00",
+      "versionNumber": 177
+    },
+    "github": {
+      "entryCommit": "b618b8fb83635b4ad8dbd999f93ce1d7332421e6",
+      "verification": "pending-public-marker-verification",
+      "pages": "https://city2243.github.io/market-heat/"
+    }
+  },
+  "previousPublishedUpdate": {
     "edition": "2026-10-30T00-11-16",
     "cutoffTaipei": "2026-10-30T00:11:16.511035+08:00",
     "readerCounts": {
@@ -151,67 +209,6 @@
       "verification": "public-marker-verified",
       "httpStatus": 200,
       "verifiedAt": "2026-10-29T16:32:03.134862+00:00"
-    }
-  },
-  "previousPublishedUpdate": {
-    "edition": "2026-10-29T20-48-38",
-    "cutoffTaipei": "2026-10-29T20:48:38.136674+08:00",
-    "readerCounts": {
-      "TW": 10,
-      "US": 10,
-      "JP": 10
-    },
-    "census": {
-      "total": 1994,
-      "completeCompanies": 245,
-      "reviewedChecks": 2859,
-      "requiredChecks": 13958,
-      "remainingCompanies": 1749,
-      "firstCensusComplete": false,
-      "batch": {
-        "id": "2026-10-29T12-48-39-570Z-39fccf",
-        "processed": 20,
-        "newCompleteCompanies": 11,
-        "newReviewedChecks": 130,
-        "closed": true
-      }
-    },
-    "quality": {
-      "passed": true,
-      "checks": 36,
-      "verifiedAt": "2026-10-29T13:19:24.595Z",
-      "scope": "本地品質與回歸檢查，不是獨立盲測或全市場準確率",
-      "japaneseDevelopmentRecall": 0.6875,
-      "insufficientCases": 53,
-      "independentHumanReviews": 0
-    },
-    "limitations": "固定來源台29/30、美30/37、日34/35成功；補搜尋保留event-followup。部分非精選觀測未全文核對，仍有同題漏合併。PERF本輪報價未取得；不宣稱全市場涵蓋。",
-    "marker": "market-heat-20261029-evening-census245",
-    "sourceCommit": "ad50460279b808c97a8bdc2cf7db2eae6f7ea9d2",
-    "sites": {
-      "id": "appgdep_6ae349d0c9ac819185daf36764804a4e",
-      "project_id": "appgprj_6aa0e3f948988191875bab0b452dfdca",
-      "title": "Market Heat｜三市場熱度",
-      "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_d02985b4d45c8191927b2f8660c76c97",
-      "type": "publish",
-      "status": "succeeded",
-      "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
-      "has_mcp": false,
-      "screenshot_asset_pointer": null,
-      "provider_deployment_id": "site---6aa0e3f948988191875bab0b452dfdca",
-      "failure_message": null,
-      "env_set_revision": 1,
-      "updated_at": "2026-10-29T13:28:05.590193+00:00",
-      "versionNumber": 175
-    },
-    "github": {
-      "repository": "city2243/market-heat",
-      "branch": "main",
-      "pages": "https://city2243.github.io/market-heat/",
-      "entryCommit": "e7082d8de3bd7ff94e88f276f5519bbaeb1eefc8",
-      "verification": "public-marker-verified",
-      "httpStatus": 200,
-      "verifiedAt": "2026-10-29T13:29:14.700167+00:00"
     }
   }
 }
