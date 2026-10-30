@@ -91,6 +91,99 @@
   "privateResearchIncluded": false,
   "archiveNote": "頂層 asOf/sourceCommit 及既有欄位描述原交接封存，不因後續新聞更新重標日期；以下 latestPublishedUpdate 記錄新一輪實際發布。完整來源的新提交保存在原 Sites 來源分支。",
   "latestPublishedUpdate": {
+    "edition": "2026-10-30T08-52-25",
+    "cutoffTaipei": "2026-10-30T08:52:25.688637+08:00",
+    "readerCounts": {
+      "TW": 0,
+      "US": 10,
+      "JP": 1
+    },
+    "popularCountsByPublisherMarket": {
+      "TW": 1,
+      "US": 0,
+      "JP": 0
+    },
+    "census": {
+      "total": 1994,
+      "officialSourceDates": [
+        "1151029"
+      ],
+      "completeCompanies": 269,
+      "reviewedChecks": 3337,
+      "requiredChecks": 13958,
+      "remainingCompanies": 1725,
+      "firstCensusComplete": false,
+      "batches": [
+        {
+          "id": "2026-10-30T00-52-27-155Z-4b1244",
+          "processed": 20,
+          "newCompleteCompanies": 1,
+          "newReviewedChecks": 110,
+          "closed": true
+        },
+        {
+          "id": "2026-10-30T01-14-09-889Z-39a345",
+          "processed": 20,
+          "newCompleteCompanies": 1,
+          "newReviewedChecks": 106,
+          "closed": true
+        }
+      ],
+      "newCompleteCompanies": 2,
+      "newReviewedChecks": 216
+    },
+    "quality": {
+      "passed": false,
+      "checks": 36,
+      "passedChecks": 34,
+      "failedChecks": [
+        "單源新事件與議題分層",
+        "本期三市場各十則"
+      ],
+      "verifiedAt": "2026-10-30T01:20:07.851Z",
+      "heatTests": 21,
+      "readingTests": 11,
+      "finalCensusTests": 13,
+      "scope": "本地回歸；兩項因台股零則及不足各十則而未通過。完整標題翻譯及build通過，不代表全市場效果。日文開發回放68.75%、53組資訊不足、成對正文2及獨立人工0保持。"
+    },
+    "limitations": "固定來源102/102回應、481篇候選，不代表全市場完整覆蓋。台38組、日30餘組擴查仍不足；不以重刊、未知日期或昨日文章補數。美股10則使用既有保存證據，本輪另核官方/技術原文；新增15篇實證舊事件與4篇日期/正文待核排除。非精選觀測未全部全文驗證。熱門榜四篇今日刊載已核，Intel財報保留，其餘三篇排除；榜單平台市場不等於公司上市市場。報價521/522，PERF重試仍無新值而保留原日期。普查缺逐筆到期授信/租約續約、驗收、仲裁結果及最新年報；已查替代官方文件，私人LINE僅有限線索讀取，未公開私人原文或網址。",
+    "readingFix": "精確URL與原標題的審核登錄，讀取及刷新後保留公司reason與逐篇排除；不更動凍結匹配、計分規則或已發布快照。",
+    "radar": {
+      "widePublicationEvents": [
+        "Intel第三季財報",
+        "Amazon第三季財報",
+        "Salesforce收購Rune"
+      ],
+      "themes": [
+        "AI基礎設施與投資回收"
+      ],
+      "limitation": "多網域刊載不代表三組獨立證據，官方公告不算獨立第三方。"
+    },
+    "marker": "market-heat-20261030-0852-census269",
+    "sourceCommit": "75ce3e95f154f2db5a0842166b02b2370ac57d44",
+    "sites": {
+      "id": "appgdep_6ae3f43e5c7081918a1e37c379366e09",
+      "project_id": "appgprj_6aa0e3f948988191875bab0b452dfdca",
+      "title": "Market Heat｜三市場熱度",
+      "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_4f0a9656eaa0819185788263b0fbd271",
+      "type": "publish",
+      "status": "succeeded",
+      "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
+      "has_mcp": false,
+      "screenshot_asset_pointer": null,
+      "provider_deployment_id": "site---6aa0e3f948988191875bab0b452dfdca",
+      "failure_message": null,
+      "env_set_revision": 1,
+      "updated_at": "2026-10-30T01:35:15.429429+00:00",
+      "versionNumber": 179
+    },
+    "github": {
+      "entryCommit": "b03cc3e4870283b0509e6198feeee962cf389be8",
+      "verification": "pending-public-marker-check",
+      "pages": "https://city2243.github.io/market-heat/"
+    }
+  },
+  "previousPublishedUpdate": {
     "edition": "2026-10-30T04-47-15",
     "cutoffTaipei": "2026-10-30T04:47:15.293011+08:00",
     "readerCounts": {
@@ -201,66 +294,6 @@
       "enabled": true,
       "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Taipei:20261016T004500\nRRULE:FREQ=DAILY;BYHOUR=0,4,8,12,16,20;BYMINUTE=45;BYSECOND=0\nEND:VEVENT",
       "timezone": "Asia/Taipei"
-    }
-  },
-  "previousPublishedUpdate": {
-    "edition": "2026-10-30T00-47-40",
-    "cutoffTaipei": "2026-10-30T00:47:40.355805+08:00",
-    "readerCounts": {
-      "TW": 0,
-      "US": 0,
-      "JP": 0
-    },
-    "census": {
-      "total": 1994,
-      "completeCompanies": 254,
-      "reviewedChecks": 2988,
-      "requiredChecks": 13958,
-      "remainingCompanies": 1740,
-      "firstCensusComplete": false,
-      "batch": {
-        "id": "2026-10-29T16-47-16-772Z-9d3b05",
-        "processed": 20,
-        "newCompleteCompanies": 9,
-        "newReviewedChecks": 129,
-        "closed": true
-      }
-    },
-    "quality": {
-      "passed": false,
-      "checks": 36,
-      "passedChecks": 34,
-      "failedChecks": [
-        "單源新事件與議題分層",
-        "本期三市場各十則"
-      ],
-      "scope": "本地回歸，不代表全市場效果；日文開發回放68.75%，53組資訊不足"
-    },
-    "limitations": "固定來源102/102回應、512篇候選；今日時間候選3篇逐條核對後排除，擴查30組原文仍未取得可驗證今日新事件，不代表全市場沒有新聞。報價514/515，PERF未取得新值。普查11家當期有效性仍缺逐筆續約/驗收等；其餘未完成公司依原目標續查。",
-    "marker": "market-heat-20261030-0047-census254",
-    "sourceCommit": "d00683768abb90b8c5ab8fd10359d77d10f3e005",
-    "sites": {
-      "id": "appgdep_6ae37d54be9c8191acf444a152450b92",
-      "project_id": "appgprj_6aa0e3f948988191875bab0b452dfdca",
-      "title": "Market Heat｜三市場熱度",
-      "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_bf1b6a7974e08191b84a5c71c956bb8c",
-      "type": "publish",
-      "status": "succeeded",
-      "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
-      "has_mcp": false,
-      "screenshot_asset_pointer": null,
-      "provider_deployment_id": "site---6aa0e3f948988191875bab0b452dfdca",
-      "failure_message": null,
-      "env_set_revision": 1,
-      "updated_at": "2026-10-29T17:08:01.565213+00:00",
-      "versionNumber": 177
-    },
-    "github": {
-      "entryCommit": "b618b8fb83635b4ad8dbd999f93ce1d7332421e6",
-      "verification": "public-marker-verified",
-      "pages": "https://city2243.github.io/market-heat/",
-      "httpStatus": 200,
-      "verifiedAt": "2026-10-29T17:09:07.074781+00:00"
     }
   }
 }
