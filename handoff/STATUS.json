@@ -146,8 +146,11 @@
     "researchFollowup": "一組已見日文日立配對補讀雙方正文，主體產品及行動不同；事後證據另存，不修改凍結null標籤或計入未見獨立驗證。",
     "github": {
       "pages": "https://city2243.github.io/market-heat/",
-      "verification": "pending-public-marker",
-      "entryCommit": "30781c5bfa6965ad4992055ed4f523cd4e50bc62"
+      "verification": "public-marker-verified",
+      "entryCommit": "30781c5bfa6965ad4992055ed4f523cd4e50bc62",
+      "httpStatus": 200,
+      "verifiedAt": "2026-11-01T09:10:53.076851+00:00",
+      "marker": "market-heat-20261101-1649-census288"
     },
     "sourceCommit": "5f92eb548f9a3e9549d66dd84ef3056f32064174",
     "sites": {
