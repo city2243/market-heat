@@ -191,12 +191,71 @@
       "failure_message": null,
       "env_set_revision": 1,
       "updated_at": "2026-11-01T13:24:44.312457+00:00",
-      "versionNumber": 183
+      "versionNumber": 183,
+      "publicReadVerification": [
+        {
+          "url": "https://market-heat-jaime.jaime2243.chatgpt.site/data/latest.json",
+          "httpStatus": 200,
+          "verifiedAt": "2026-11-01T13:25:03.514312+00:00",
+          "edition": "2026-11-01T20-47-12",
+          "cutoff": "2026-11-01T12:54:36.286087+00:00",
+          "originalCutoff": "2026-11-01T12:47:12.746885+00:00",
+          "counts": {
+            "TW": 4,
+            "US": 7,
+            "JP": 4
+          }
+        },
+        {
+          "url": "https://market-heat-jaime.jaime2243.chatgpt.site/api/news",
+          "httpStatus": 200,
+          "verifiedAt": "2026-11-01T13:25:05.993533+00:00",
+          "edition": "2026-11-01T20-47-12",
+          "cutoff": "2026-11-01T12:54:36.286087+00:00",
+          "originalCutoff": "2026-11-01T12:47:12.746885+00:00",
+          "counts": {
+            "TW": 4,
+            "US": 7,
+            "JP": 4
+          }
+        },
+        {
+          "url": "https://market-heat-jaime.jaime2243.chatgpt.site/api/census",
+          "httpStatus": 200,
+          "verifiedAt": "2026-11-01T13:25:06.528994+00:00",
+          "total": 1996,
+          "counts": {
+            "queued": 734,
+            "in_progress": 648,
+            "blocked": 318,
+            "due": 0,
+            "complete": 296
+          },
+          "reviewedChecks": 4043,
+          "qc": {
+            "integrityPassed": true,
+            "completionPassed": false,
+            "state": "incomplete"
+          }
+        },
+        {
+          "url": "https://market-heat-jaime.jaime2243.chatgpt.site/data/update-status.json",
+          "httpStatus": 200,
+          "verifiedAt": "2026-11-01T13:25:03.495366+00:00",
+          "marker": "market-heat-20261101-2047-census296-checks4043"
+        }
+      ]
     },
     "github": {
-      "pages": "https://city2243.github.io/market-heat/",
+      "url": "https://city2243.github.io/market-heat/",
+      "httpStatus": 200,
+      "verifiedAt": "2026-11-01T13:27:02.249557+00:00",
       "marker": "market-heat-20261101-2047-census296-checks4043",
-      "statusAtCommit": "Sites succeeded; Pages entry update and public-marker verification pending."
+      "matchesCurrentMarker": true,
+      "attempt": 1,
+      "pages": "https://city2243.github.io/market-heat/",
+      "verification": "public-marker-verified",
+      "entryCommit": "7b5a03fede8da2f3e99f91dab084ab9697eb61fa"
     }
   },
   "previousPublishedUpdate": {
