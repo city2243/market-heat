@@ -171,13 +171,37 @@
       "versionNumber": 186,
       "status": "succeeded",
       "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
-      "publicReadVerification": []
+      "publicReadVerification": [
+        {
+          "url": "https://market-heat-jaime.jaime2243.chatgpt.site/data/update-status.json",
+          "httpStatus": 200,
+          "verifiedAt": "2026-11-01T21:06:55.740Z",
+          "marker": "market-heat-20261102-0442-census304-checks4303",
+          "matchesCurrentMarker": true
+        },
+        {
+          "url": "https://market-heat-jaime.jaime2243.chatgpt.site/data/latest.json",
+          "httpStatus": 200,
+          "verifiedAt": "2026-11-01T21:06:55.740Z",
+          "edition": "2026-11-02T04-42-53",
+          "counts": {
+            "TW": 2,
+            "US": 2,
+            "JP": 7
+          }
+        }
+      ]
     },
     "github": {
       "pages": "https://city2243.github.io/market-heat/",
       "entryCommit": "6265496fa26f808c9abf86f53709f9d211db55a0",
-      "verification": "pending-public-marker-readback",
-      "marker": "market-heat-20261102-0442-census304-checks4303"
+      "statusCommit": "be5948fc0c771ae411d7b37a91a0f18731e01684",
+      "verification": "public-marker-verified",
+      "url": "https://city2243.github.io/market-heat/",
+      "httpStatus": 200,
+      "verifiedAt": "2026-11-01T21:06:55.740Z",
+      "marker": "market-heat-20261102-0442-census304-checks4303",
+      "matchesCurrentMarker": true
     }
   },
   "previousPublishedUpdate": {
