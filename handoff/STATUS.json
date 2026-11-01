@@ -283,8 +283,11 @@
     },
     "github": {
       "entryCommit": "0009baca6cab72ab0954ff1226a5c1caef6945ea",
-      "verification": "pending-public-marker",
-      "pages": "https://city2243.github.io/market-heat/"
+      "verification": "public-marker-verified",
+      "pages": "https://city2243.github.io/market-heat/",
+      "httpStatus": 200,
+      "verifiedAt": "2026-11-01T05:23:39.913467+00:00",
+      "marker": "market-heat-20261101-1250-census285"
     }
   },
   "previousPublishedUpdate": {
