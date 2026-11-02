@@ -171,13 +171,26 @@
       "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_bacbaa4fb2cc819183361dc3cacceba7",
       "versionNumber": 187,
       "status": "succeeded",
-      "url": "https://market-heat-jaime.jaime2243.chatgpt.site"
+      "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
+      "publicReadVerification": [
+        {
+          "url": "https://market-heat-jaime.jaime2243.chatgpt.site/data/update-status.json",
+          "httpStatus": 200,
+          "verifiedAt": "2026-11-02T01:15:00Z",
+          "marker": "market-heat-20261102-0848-census304-checks4303",
+          "matchesCurrentMarker": true
+        }
+      ]
     },
     "github": {
       "pages": "https://city2243.github.io/market-heat/",
       "entryCommit": "b2adc73e55de96f1d08daa5a689bb413206d14ee",
-      "verification": "pending-public-marker",
-      "marker": "market-heat-20261102-0848-census304-checks4303"
+      "verification": "public-marker-verified",
+      "marker": "market-heat-20261102-0848-census304-checks4303",
+      "url": "https://city2243.github.io/market-heat/",
+      "httpStatus": 200,
+      "verifiedAt": "2026-11-02T01:16:00Z",
+      "matchesCurrentMarker": true
     }
   },
   "previousPublishedUpdate": {
