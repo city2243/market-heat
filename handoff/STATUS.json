@@ -91,6 +91,96 @@
   "privateResearchIncluded": false,
   "archiveNote": "頂層 asOf/sourceCommit 及既有欄位描述原交接封存，不因後續新聞更新重標日期；以下 latestPublishedUpdate 記錄新一輪實際發布。完整來源的新提交保存在原 Sites 來源分支。",
   "latestPublishedUpdate": {
+    "edition": "2026-11-02T08-48-10",
+    "cutoff": "2026-11-02T00:48:10.201841+00:00",
+    "originalCollectionCutoff": "2026-11-02T00:48:10.201841+00:00",
+    "cutoffTaipei": "2026-11-02T08:48:10+08:00",
+    "readerCounts": {
+      "TW": 4,
+      "US": 4,
+      "JP": 10
+    },
+    "popularCountsByPublisherMarket": {
+      "TW": 0,
+      "US": 0,
+      "JP": 0
+    },
+    "marker": "market-heat-20261102-0848-census304-checks4303",
+    "census": {
+      "total": 1996,
+      "completeCompanies": 304,
+      "reviewedChecks": 4303,
+      "requiredChecks": 13972,
+      "remainingCompanies": 1692,
+      "firstCensusComplete": false,
+      "newCompleteCompanies": 0,
+      "newReviewedChecks": 0,
+      "closedRun": "2026-11-01T20-46-48-070Z-8b6c80",
+      "nextRun": "2026-11-02T00-56-19-908Z-53fafd",
+      "blocker": "官方年報索引可讀，但正文 step=9 下載回傳 HTTP 403／拒絕頁；入口未計完成。"
+    },
+    "quality": {
+      "passed": false,
+      "checks": 36,
+      "passedChecks": 35,
+      "failedChecks": [
+        "本期三市場各十則"
+      ],
+      "verifiedAt": "2026-11-02T01:05:25.535Z",
+      "definitionId": "event-heat-v3.4:4d87f282",
+      "translatedUniqueHeadlines": 11918,
+      "buildPassed": true,
+      "heatTestsPassed": 21,
+      "japaneseDevelopmentRecall": 0.6875,
+      "insufficientCases": 53,
+      "pairedPublicBodyReviews": 2,
+      "independentHumanReviews": 0,
+      "scope": "Local regression and controlled replay; not independent unseen-news market accuracy."
+    },
+    "limitations": "102項固定查詢與直接來源均回應，但查詢成功不等於全市場涵蓋。依台北當天原始出版日與informationOnly核對後，台股4、美股4、日股10；擴大官方Newsroom/IR、日文公司公告及產業媒體搜尋仍未找到足夠台、美當日事件，未以昨日新聞補數。付費牆、傳聞、商品導購、股價分析與公司誤配均排除或明示限制。普查本批官方正文下載受阻，未將索引當完成。",
+    "radar": {
+      "events": 135,
+      "reports": 175,
+      "high": 5,
+      "themes": 6,
+      "early": 7
+    },
+    "quotes": {
+      "requested": 545,
+      "updated": 542,
+      "savedTotal": 545,
+      "failedPreserved": [
+        {
+          "key": "JP:5571",
+          "asOf": "2026-10-29T05:32:37+00:00"
+        },
+        {
+          "key": "US:ATII",
+          "asOf": "2026-10-28T20:00:00+00:00"
+        },
+        {
+          "key": "US:PERF",
+          "asOf": "2026-10-22T20:00:02+00:00"
+        }
+      ]
+    },
+    "sourceCommit": "e81093e6e29f3f18e9149c9f92636cc5f1dfae8d",
+    "sites": {
+      "id": "appgdep_6ae7e3c983748191a6f4c9d8d2e997bb",
+      "project_id": "appgprj_6aa0e3f948988191875bab0b452dfdca",
+      "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_bacbaa4fb2cc819183361dc3cacceba7",
+      "versionNumber": 187,
+      "status": "succeeded",
+      "url": "https://market-heat-jaime.jaime2243.chatgpt.site"
+    },
+    "github": {
+      "pages": "https://city2243.github.io/market-heat/",
+      "entryCommit": "b2adc73e55de96f1d08daa5a689bb413206d14ee",
+      "verification": "pending-public-marker",
+      "marker": "market-heat-20261102-0848-census304-checks4303"
+    }
+  },
+  "previousPublishedUpdate": {
     "edition": "2026-11-02T04-42-53",
     "cutoff": "2026-11-01T20:42:53.000734+00:00",
     "originalCollectionCutoff": "2026-11-01T20:42:53.000734+00:00",
@@ -202,187 +292,6 @@
       "verifiedAt": "2026-11-01T21:06:55.740Z",
       "marker": "market-heat-20261102-0442-census304-checks4303",
       "matchesCurrentMarker": true
-    }
-  },
-  "previousPublishedUpdate": {
-    "edition": "2026-11-02T00-49-50",
-    "cutoff": "2026-11-01T17:00:05.898615+00:00",
-    "originalCollectionCutoff": "2026-11-01T16:49:50.270278+00:00",
-    "supplementalCollectionCutoff": "2026-11-01T17:00:05.898615+00:00",
-    "readerCounts": {
-      "TW": 2,
-      "US": 0,
-      "JP": 0
-    },
-    "popularCountsByPublisherMarket": {
-      "TW": 0,
-      "US": 0,
-      "JP": 0
-    },
-    "marker": "market-heat-20261102-0049-census303-checks4289",
-    "census": {
-      "total": 1996,
-      "completeCompanies": 303,
-      "reviewedChecks": 4289,
-      "requiredChecks": 13972,
-      "remainingCompanies": 1693,
-      "firstCensusComplete": false,
-      "newCompleteCompanies": 7,
-      "newReviewedChecks": 246
-    },
-    "quality": {
-      "passed": false,
-      "checks": 36,
-      "passedChecks": 34,
-      "failedChecks": [
-        "單源新事件與議題分層",
-        "本期三市場各十則"
-      ],
-      "verifiedAt": "2026-11-01T17:16:25.622Z",
-      "definitionId": "event-heat-v3.4:4d87f282",
-      "translatedUniqueHeadlines": 11759,
-      "scope": "Local regression and Workerd tests with controlled data; not an authenticated production browser session or independent unseen-news accuracy study.",
-      "buildPassed": true,
-      "heatTestsPassed": 21,
-      "japaneseDevelopmentRecall": 0.6875,
-      "insufficientCases": 53,
-      "independentHumanReviews": 0
-    },
-    "limitations": "本期固定收錄截至台北2026/11/2 00:49:50，102項來源73成功29失敗；Google/Bing狀態逐項保留。當天原始出版日查核後台股2、美股0、日股0；補查官方Newsroom/IR及產業媒體仍不足十則。Google太空資料中心2篇同題因付費牆／原文脈絡未核保留待查，水果蘋果錯配剔除。兩篇台股為單一經濟日報稿源與早期供需線索，不把未證實接單、漲價預期當公司公告。跨日舊觀測保存供歷史查詢，未將昨日新聞補入今日。完整observations仍有待核候選，公開保留剔除原因，不宣稱完整市場覆蓋。 報價共保存543筆；5571、ATII、PERF本輪仍失敗，沿用明確標日期舊值，其餘結果以報價欄位日期為準。 29項失敗均為跨市場直接來源逾時（不代表29家獨立媒體）；58項Google查詢成功，本輪無需Bing備援。固定來源原始截止00:49:50、追加原文查核截止01:00:05（台北）；不把追加查核稱所有來源重新收錄。日文開發回放68.75%、53組資訊不足、原成對正文2與獨立人工0的界線維持。",
-    "radar": {
-      "events": 2,
-      "reports": 2,
-      "high": 0,
-      "themes": 0,
-      "early": 0
-    },
-    "quotes": {
-      "primary": {
-        "requested": 542,
-        "updated": 533,
-        "unavailable": [
-          "JP:5571",
-          "JP:6820",
-          "JP:6857",
-          "JP:6861",
-          "JP:6866",
-          "JP:6954",
-          "JP:6963",
-          "US:ATII",
-          "US:PERF"
-        ],
-        "savedTotal": 542
-      },
-      "retry": {
-        "requested": 9,
-        "updated": 6,
-        "failed": [
-          "JP:5571",
-          "US:ATII",
-          "US:PERF"
-        ]
-      },
-      "extra": {
-        "requested": 4,
-        "updated": 4,
-        "failed": []
-      },
-      "savedTotal": 543,
-      "failedPreserved": [
-        {
-          "key": "JP:5571",
-          "asOf": "2026-10-29T05:32:37+00:00"
-        },
-        {
-          "key": "US:ATII",
-          "asOf": "2026-10-28T20:00:00+00:00"
-        },
-        {
-          "key": "US:PERF",
-          "asOf": "2026-10-22T20:00:02+00:00"
-        }
-      ]
-    },
-    "sourceCommit": "a74bc23d8de59ce1fcd133f1188a8a9eabe224b9",
-    "sites": {
-      "id": "appgdep_6ae7762ae8008191856c30a27689ca70",
-      "project_id": "appgprj_6aa0e3f948988191875bab0b452dfdca",
-      "title": "Market Heat｜三市場熱度",
-      "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_665ad4b188cc81918f1341b3a47944c5",
-      "type": "publish",
-      "status": "succeeded",
-      "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
-      "has_mcp": false,
-      "screenshot_asset_pointer": null,
-      "provider_deployment_id": "site---6aa0e3f948988191875bab0b452dfdca",
-      "failure_message": null,
-      "env_set_revision": 1,
-      "updated_at": "2026-11-01T17:26:20.251416+00:00",
-      "versionNumber": 185,
-      "publicReadVerification": [
-        {
-          "url": "https://market-heat-jaime.jaime2243.chatgpt.site/data/latest.json",
-          "httpStatus": 200,
-          "verifiedAt": "2026-11-01T17:26:35.493568+00:00",
-          "edition": "2026-11-02T00-49-50",
-          "cutoff": "2026-11-01T17:00:05.898615+00:00",
-          "originalCutoff": "2026-11-01T16:49:50.270278+00:00",
-          "counts": {
-            "TW": 2,
-            "US": 0,
-            "JP": 0
-          }
-        },
-        {
-          "url": "https://market-heat-jaime.jaime2243.chatgpt.site/api/news",
-          "httpStatus": 200,
-          "verifiedAt": "2026-11-01T17:26:38.041620+00:00",
-          "edition": "2026-11-02T00-49-50",
-          "cutoff": "2026-11-01T17:00:05.898615+00:00",
-          "originalCutoff": "2026-11-01T16:49:50.270278+00:00",
-          "counts": {
-            "TW": 2,
-            "US": 0,
-            "JP": 0
-          }
-        },
-        {
-          "url": "https://market-heat-jaime.jaime2243.chatgpt.site/api/census",
-          "httpStatus": 200,
-          "verifiedAt": "2026-11-01T17:26:39.198831+00:00",
-          "total": 1996,
-          "counts": {
-            "queued": 695,
-            "in_progress": 680,
-            "blocked": 318,
-            "due": 0,
-            "complete": 303
-          },
-          "reviewedChecks": 4289,
-          "qc": {
-            "integrityPassed": true,
-            "completionPassed": false,
-            "state": "incomplete"
-          }
-        },
-        {
-          "url": "https://market-heat-jaime.jaime2243.chatgpt.site/data/update-status.json",
-          "httpStatus": 200,
-          "verifiedAt": "2026-11-01T17:26:35.528213+00:00",
-          "marker": "market-heat-20261102-0049-census303-checks4289"
-        }
-      ]
-    },
-    "github": {
-      "pages": "https://city2243.github.io/market-heat/",
-      "entryCommit": "46f8ecc048bf18435f107045db0167511b1300ba",
-      "verification": "public-marker-verified",
-      "url": "https://city2243.github.io/market-heat/",
-      "httpStatus": 200,
-      "verifiedAt": "2026-11-01T17:27:37.398607+00:00",
-      "marker": "market-heat-20261102-0049-census303-checks4289",
-      "matchesCurrentMarker": true,
-      "attempt": 1
     }
   }
 }
