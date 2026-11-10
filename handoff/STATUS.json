@@ -68,7 +68,7 @@
     "branch": "main",
     "pages": "https://city2243.github.io/market-heat/",
     "marker": "market-heat-20261111-005227-v252-c384-q32",
-    "statusAtCommit": "GitHub Pages publication pending public-marker verification."
+    "statusAtCommit": "GitHub Pages public marker verified."
   },
   "automation": {
     "id": "6aa0e813ab588191a0c201ccc902709c",
@@ -185,12 +185,12 @@
     "github": {
       "pages": "https://city2243.github.io/market-heat/",
       "entryCommit": "10e62a7f1678e55ee21d00e037ecebdfaea64cbd",
-      "verification": "pending-public-marker-verification",
+      "verification": "public-marker-verified",
       "marker": "market-heat-20261111-005227-v252-c384-q32",
       "url": "https://city2243.github.io/market-heat/",
-      "httpStatus": null,
-      "verifiedAt": null,
-      "matchesCurrentMarker": null
+      "httpStatus": 200,
+      "verifiedAt": "2026-11-10T17:29:40Z",
+      "matchesCurrentMarker": true
     }
   },
   "previousPublishedUpdate": {
