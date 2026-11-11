@@ -1,47 +1,47 @@
 {
-  "asOf": "2026-11-10T21:16:59.807966+00:00",
-  "sourceCommit": "bb5d3865737ee64a3a9b2691ee91c08bbb6ef454",
+  "asOf": "2026-11-11T01:22:31.484266+00:00",
+  "sourceCommit": "5a61483638bf247aa41c563111d6582bfc751bf1",
   "census": {
     "total": 1996,
-    "completeCompanies": 385,
-    "reviewedChecks": 4865,
+    "completeCompanies": 386,
+    "reviewedChecks": 4866,
     "requiredChecks": 13972,
-    "remainingCompanies": 1611,
+    "remainingCompanies": 1610,
     "blockedCompanies": 352,
     "firstCensusComplete": false,
     "batch": {
-      "id": "2026-11-10T17-00-58-756Z-e0a1a6",
+      "id": "2026-11-10T20-54-50-957Z-d1c9a9",
       "processed": 1,
       "newCompleteCompanies": 1,
       "newReviewedChecks": 1,
       "closed": true,
-      "nextBatch": "2026-11-10T20-54-50-957Z-d1c9a9"
+      "nextBatch": "2026-11-11T00-59-07-265Z-6bda76"
     }
   },
   "news": {
-    "edition": "2026-11-11T04-46-11",
-    "cutoffTaipei": "2026-11-11T04:46:11+08:00",
+    "edition": "2026-11-11T08-53-09",
+    "cutoffTaipei": "2026-11-11T08:53:09+08:00",
     "readerCounts": {
       "TW": 10,
       "US": 10,
-      "JP": 6
+      "JP": 10
     },
     "recollectedForHandoff": false,
-    "limitations": "固定查詢與直接來源保存台股214篇／175事件、美股216篇／171事件、日股125篇／103事件；依台北11月11日原始出版日與informationOnly核對後台股10、美股10、日股6。日股凌晨擴查後仍不足10則，未以跨日轉載、前一日事件或更新時間補數；完整顯示翻譯仍缺1,942筆跨期／未入選觀測，本期入選26則已具繁中。報價605檔更新603檔，ATII與PERF保留明確日期舊值或缺值。"
+    "limitations": "固定查詢與直接來源保存台股212篇／176事件、美股227篇／177事件、日股142篇／112事件；依台北11月11日原始出版日與informationOnly核對後三市場各10則。跨日重刊、投資建議、商品導購、運動隊消息及公司誤配未補入；完整顯示翻譯仍缺2,224筆跨期／未入選觀測，本期入選30則已具繁中。報價605檔更新603檔，ATII與PERF保留明確日期舊值或缺值。"
   },
   "quality": {
     "passed": false,
     "checks": 36,
     "passedChecks": 34,
     "failedChecks": [
-      "中文翻譯完整性",
-      "本期三市場各十則"
+      "熱度與歷史取樣",
+      "中文翻譯完整性"
     ],
-    "verifiedAt": "2026-11-10T21:12:41.617Z",
+    "verifiedAt": "2026-11-11T01:19:10.368Z",
     "definitionId": "event-heat-v3.4:d69db128",
-    "missingTranslationAuditEntries": 1942,
+    "missingTranslationAuditEntries": 2224,
     "buildPassed": true,
-    "heatTestsPassed": 21,
+    "heatTestsPassed": 20,
     "japaneseDevelopmentRecall": 0.6875,
     "insufficientCases": 53,
     "pairedPublicBodyReviews": 2,
@@ -49,13 +49,13 @@
     "scope": "Local regression and controlled replay; not independent unseen-news market accuracy."
   },
   "sites": {
-    "id": "appgdep_6af389bd8e988191baa7331fc771d429",
+    "id": "appgdep_6af3c347287c81919c075e989bff5445",
     "project_id": "appgprj_6aa0e3f948988191875bab0b452dfdca",
-    "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_64157cbe913881919c464ec07cd0b424",
-    "versionNumber": 253,
+    "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_83ac329c0f2881919f2b9d00b628a308",
+    "versionNumber": 254,
     "status": "succeeded",
     "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
-    "updated_at": "2026-11-10T21:16:59.807966+00:00",
+    "updated_at": "2026-11-11T01:22:31.484266+00:00",
     "title": "Market Heat｜三市場熱度",
     "type": "publish",
     "has_mcp": false,
@@ -65,7 +65,7 @@
     "repository": "city2243/market-heat",
     "branch": "main",
     "pages": "https://city2243.github.io/market-heat/",
-    "marker": "market-heat-20261111-044611-v253-c385-q34",
+    "marker": "market-heat-20261111-085309-v254-c386-q34",
     "statusAtCommit": "GitHub Pages public marker pending verification."
   },
   "automation": {
@@ -89,6 +89,97 @@
   "privateResearchIncluded": false,
   "archiveNote": "頂層 asOf/sourceCommit 及既有欄位描述原交接封存，不因後續新聞更新重標日期；以下 latestPublishedUpdate 記錄新一輪實際發布。完整來源的新提交保存在原 Sites 來源分支。",
   "latestPublishedUpdate": {
+    "edition": "2026-11-11T08-53-09",
+    "cutoff": "2026-11-11T00:53:09.071190+00:00",
+    "originalCollectionCutoff": "2026-11-11T00:53:09.071190+00:00",
+    "cutoffTaipei": "2026-11-11T08:53:09+08:00",
+    "readerCounts": {
+      "TW": 10,
+      "US": 10,
+      "JP": 10
+    },
+    "marker": "market-heat-20261111-085309-v254-c386-q34",
+    "census": {
+      "total": 1996,
+      "completeCompanies": 386,
+      "reviewedChecks": 4866,
+      "requiredChecks": 13972,
+      "remainingCompanies": 1610,
+      "blockedCompanies": 352,
+      "firstCensusComplete": false,
+      "newCompleteCompanies": 1,
+      "newReviewedChecks": 1,
+      "closedRun": "2026-11-10T20-54-50-957Z-d1c9a9",
+      "nextRun": "2026-11-11T00-59-07-265Z-6bda76"
+    },
+    "quality": {
+      "passed": false,
+      "checks": 36,
+      "passedChecks": 34,
+      "failedChecks": [
+        "熱度與歷史取樣",
+        "中文翻譯完整性"
+      ],
+      "verifiedAt": "2026-11-11T01:19:10.368Z",
+      "definitionId": "event-heat-v3.4:d69db128",
+      "missingTranslationAuditEntries": 2224,
+      "buildPassed": true,
+      "heatTestsPassed": 20,
+      "japaneseDevelopmentRecall": 0.6875,
+      "insufficientCases": 53,
+      "pairedPublicBodyReviews": 2,
+      "independentHumanReviews": 0,
+      "scope": "Local regression and controlled replay; not independent unseen-news market accuracy."
+    },
+    "limitations": "固定查詢與直接來源保存台股212篇／176事件、美股227篇／177事件、日股142篇／112事件；依台北11月11日原始出版日與informationOnly核對後三市場各10則。跨日重刊、投資建議、商品導購、運動隊消息及公司誤配未補入；完整顯示翻譯仍缺2,224筆跨期／未入選觀測，本期入選30則已具繁中。報價605檔更新603檔，ATII與PERF保留明確日期舊值或缺值。",
+    "radar": {
+      "historyRows": 747,
+      "snapshots": 7,
+      "multiSource": {
+        "TW": 4,
+        "US": 1,
+        "JP": 0
+      },
+      "measured": {
+        "TW": 198,
+        "US": 198,
+        "JP": 127
+      },
+      "baselineDays": {
+        "TW": 13,
+        "US": 15,
+        "JP": 10
+      }
+    },
+    "quotes": {
+      "requested": 605,
+      "updated": 603,
+      "savedTotal": 605,
+      "failedPreserved": [
+        {
+          "key": "US:ATII"
+        },
+        {
+          "key": "US:PERF"
+        }
+      ]
+    },
+    "sourceCommit": "5a61483638bf247aa41c563111d6582bfc751bf1",
+    "sites": {
+      "id": "appgdep_6af3c347287c81919c075e989bff5445",
+      "project_id": "appgprj_6aa0e3f948988191875bab0b452dfdca",
+      "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_83ac329c0f2881919f2b9d00b628a308",
+      "versionNumber": 254,
+      "status": "succeeded",
+      "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
+      "updated_at": "2026-11-11T01:22:31.484266+00:00",
+      "title": "Market Heat｜三市場熱度",
+      "type": "publish",
+      "has_mcp": false,
+      "failure_message": null
+    }
+  },
+  "previousPublishedUpdate": {
     "edition": "2026-11-11T04-46-11",
     "cutoff": "2026-11-10T20:46:11.860353+00:00",
     "originalCollectionCutoff": "2026-11-10T20:46:11.860353+00:00",
@@ -171,109 +262,6 @@
       "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_64157cbe913881919c464ec07cd0b424",
       "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
       "updated_at": "2026-11-10T21:16:59.807966+00:00"
-    }
-  },
-  "previousPublishedUpdate": {
-    "edition": "2026-11-11T00-52-27",
-    "cutoff": "2026-11-10T16:52:27.468003+00:00",
-    "originalCollectionCutoff": "2026-11-10T16:52:27.468003+00:00",
-    "cutoffTaipei": "2026-11-11T00:52:27+08:00",
-    "readerCounts": {
-      "TW": 0,
-      "US": 4,
-      "JP": 1
-    },
-    "marker": "market-heat-20261111-005227-v252-c384-q32",
-    "census": {
-      "total": 1996,
-      "completeCompanies": 384,
-      "reviewedChecks": 4864,
-      "requiredChecks": 13972,
-      "remainingCompanies": 1612,
-      "blockedCompanies": 352,
-      "firstCensusComplete": false,
-      "newCompleteCompanies": 1,
-      "newReviewedChecks": 2,
-      "closedRun": "2026-11-10T12-57-18-157Z-4236fb",
-      "nextRun": "2026-11-10T17-00-58-756Z-e0a1a6"
-    },
-    "quality": {
-      "passed": false,
-      "checks": 36,
-      "passedChecks": 32,
-      "failedChecks": [
-        "單源新事件與議題分層",
-        "熱度與歷史取樣",
-        "中文翻譯完整性",
-        "本期三市場各十則"
-      ],
-      "verifiedAt": "2026-11-10T17:24:47.423Z",
-      "definitionId": "event-heat-v3.4:d69db128",
-      "missingTranslationAuditEntries": 1688,
-      "buildPassed": true,
-      "heatTestsPassed": 20,
-      "japaneseDevelopmentRecall": 0.6875,
-      "insufficientCases": 53,
-      "pairedPublicBodyReviews": 2,
-      "independentHumanReviews": 0,
-      "scope": "Local regression and controlled replay; not independent unseen-news market accuracy."
-    },
-    "limitations": "固定查詢與直接來源保存台股188篇／158事件、美股214篇／170事件、日股121篇／99事件；依台北11月11日原始出版日與informationOnly核對後台股0、美股4、日股1。跨日轉載、前一日事件與公司誤配未補數；完整顯示翻譯仍缺1,688筆跨期／未入選觀測，本期入選5則已具繁中。報價604檔更新602檔，ATII與PERF保留明確日期舊值或缺值。",
-    "radar": {
-      "historyRows": 637,
-      "snapshots": 8,
-      "multiSource": {
-        "TW": 0,
-        "US": 0,
-        "JP": 0
-      },
-      "measured": {
-        "TW": 183,
-        "US": 194,
-        "JP": 116
-      },
-      "baselineDays": {
-        "TW": 7,
-        "US": 14,
-        "JP": 6
-      }
-    },
-    "quotes": {
-      "requested": 604,
-      "updated": 602,
-      "savedTotal": 604,
-      "failedPreserved": [
-        {
-          "key": "US:ATII"
-        },
-        {
-          "key": "US:PERF"
-        }
-      ]
-    },
-    "sourceCommit": "8b62f3d1ad542dfd6c0b80c66ede162f86ca44f2",
-    "sites": {
-      "id": "appgdep_6af3540d44dc81919748c092e350fa4a",
-      "project_id": "appgprj_6aa0e3f948988191875bab0b452dfdca",
-      "version_id": "appgprj_6aa0e3f948988191875bab0b452dfdca~appgver_086acac797408191b8a122b46e3ffa0a",
-      "versionNumber": 252,
-      "status": "succeeded",
-      "url": "https://market-heat-jaime.jaime2243.chatgpt.site",
-      "updated_at": "2026-11-10T17:27:58.613160+00:00",
-      "title": "Market Heat｜三市場熱度",
-      "type": "publish",
-      "has_mcp": false,
-      "failure_message": null
-    },
-    "github": {
-      "pages": "https://city2243.github.io/market-heat/",
-      "entryCommit": "10e62a7f1678e55ee21d00e037ecebdfaea64cbd",
-      "verification": "public-marker-verified",
-      "marker": "market-heat-20261111-005227-v252-c384-q32",
-      "url": "https://city2243.github.io/market-heat/",
-      "httpStatus": 200,
-      "verifiedAt": "2026-11-10T17:29:40Z",
-      "matchesCurrentMarker": true
     }
   }
 }
